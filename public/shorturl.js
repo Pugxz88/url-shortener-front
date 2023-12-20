@@ -1,9 +1,3 @@
-\
-
-
-
-
-
 const API_URL = "https://linkme.onrender.com/api/shortlink";
 
 function copy(target) {
