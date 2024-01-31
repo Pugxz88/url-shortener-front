@@ -17,7 +17,7 @@ Please Hit "Like" and "Subscribe"..
 # https://vercel.com
 make sure to tick 'Override': Build Command(npm run build), Output Directory(public), and Install Command(npm install) in your vercel app 'Settings' -> 'Build and Development Settings'.
 
-## Website👉 https://tiny-link.vercel.app
+## Website👉 https://url-short-front.vercel.app/
 ## Don't forget to "Star" 🥰
 
 Thank you 🍻
