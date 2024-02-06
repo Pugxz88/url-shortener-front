@@ -132,14 +132,15 @@ header {
     display: block;
     z-index: 1;
 }
- .fa {
+
+.fa {
     padding-right: 3px;
 }
 
- .nav .fa-caret-down {
-     padding-left: 3px;
+.nav .fa-caret-down {
+    padding-left: 3px;
 
- }
+}
 
 #menuicon {
     display: none;
@@ -302,15 +303,20 @@ header {
         flex-direction: row;
         justify-content: center;
         text-align: center;
-        padding: 0;
         margin: 0 auto;
         position: relative;
         overflow: visible;
+        color: rgb(205, 205, 223);
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        border-top: 1px solid rgba(255, 255, 255, 0.555);
     }
 
     .drop-down-content {
         overflow: visible;
         z-index: 1;
+        position: relative;
     }
 
     .drop-down-content a {
@@ -331,21 +337,6 @@ header {
         z-index: 1;
     }
 
-    .drop-btn .drop-down-content a:hover {
-        float: right;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        position: relative;
-        background-color: rgb(52, 92, 52);
-        color: #555;
-        padding: 0;
-        overflow: visible;
-        z-index: 1;
-    }
 
     img {
         padding-top: 4px;
@@ -844,17 +835,6 @@ label::before {
 
     #copyright {
         padding-top: 14px;
-    }
-
-    .drop-down {
-        position: relative;
-        display: block;
-        color: rgb(205, 205, 223);
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        border-top: 1px solid rgba(255, 255, 255, 0.555);
     }
 }
 
